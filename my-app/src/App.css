@@ -3,29 +3,10 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100svh;
-  width: 100%;
-  background: #0b0a0a;
+  padding: 2rem;
 }
 
 .mafia-video {
   display: block;
-  width: 40%;
   height: auto;
 }
-
-.submit-btn {
-  margin-top: 1rem;
-  padding: 0.6rem 2rem;
-  font-size: 1rem;
-  cursor: pointer;
-  border: none;
-  border-radius: 6px;
-  background: #e63946;
-  color: #fff;
-}
-
-.submit-btn:hover {
-  background: #c1121f;
-}
-
