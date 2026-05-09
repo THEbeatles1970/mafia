@@ -10,16 +10,20 @@ function App() {
         src={mafiaVideo}
         autoPlay
         muted
-        
+        loop
         playsInline
       />
       <button
-        className="mt-6 inline-flex items-center gap-2 rounded-md bg-red-600 px-8 py-3 font-semibold text-white shadow-lg shadow-red-950/40 transition hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-300"
+        className="mt-6 inline-flex items-center gap-2 rounded-md bg-yellow-600 
+                    px-8 py-3 font-semibold text-white shadow-xl shadow-white-950/40 
+                    transition hover:bg-yellow-700 focus-visible:outline focus-visible:outline-2 
+                    focus-visible:outline-offset-2 focus-visible:outline-red-300"
         type="button"
       >
-        <span class="font-bold">Play</span>
+        <span className="font-serif text-xl font-bold">Play</span>
         <PlayCircleOutlineSharpIcon className="button-icon" />
       </button>
+     
     </main>
   )
 }
